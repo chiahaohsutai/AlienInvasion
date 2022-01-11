@@ -1,6 +1,6 @@
 # AlienInvasion
 
-*What did I create?* I created a interactive game similar to Tomohiro Nishikado's Space Invaders.
+*What did I create?* I created a interactive game similar to Tomohiro Nishikado's Space Invaders with the guide of Eric Matthes' Python Crash Course
 
 ### Summary of Technical Design:
 
