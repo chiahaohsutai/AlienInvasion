@@ -24,7 +24,8 @@ class Scoreboard:
     def display_score(self):
         """Turn the score to a rendered image"""
         rounded_score = round(self.stats.score, -1)  # rounds to a multiple of 10
-        score_str = "Score: " + "{:,}".format(rounded_score)  # adds commas to make numerical value more clear
+        # adds commas to make numerical value more clear
+        score_str = "Score: " + "{:,}".format(rounded_score)
         # Render the text as image
         self.score_img = self.font.render(score_str, True, self.text_color, self.settings.bg_color)
         self.score_rect = self.score_img.get_rect()
@@ -35,7 +36,8 @@ class Scoreboard:
     def display_high_score(self):
         """Turn the high score to a rendered image"""
         rounded_score = round(self.stats.high_score, -1)  # rounds to a multiple of 10
-        score_str = "HighScore: " + "{:,}".format(rounded_score)  # adds commas to make numerical value more clear
+        # adds commas to make numerical value more clear
+        score_str = "HighScore: " + "{:,}".format(rounded_score)
         # Render the text as image
         self.high_score_img = self.font.render(score_str, True, self.text_color, self.settings.bg_color)
         self.high_score_rect = self.high_score_img.get_rect()

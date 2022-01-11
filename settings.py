@@ -23,7 +23,6 @@ class Settings:
 
         # Alien Settings
         self.drop_speed = 10
-        self.alien_fleet_direction = 1
 
         self.speedup_scale = 1.1
         self.score_scale = 1.1
@@ -37,15 +36,15 @@ class Settings:
             self.bullet_speed = 4
             self.alien_point = 50
         elif difficulty == 0:
-            self.ship_speed = 3
-            self.alien_speed = 4
-            self.bullet_speed = 5
-            self.alien_point = int(50 * self.score_scale)
-        elif difficulty == 1:
-            self.ship_speed = 3.5
+            self.ship_speed = 4
             self.alien_speed = 5
             self.bullet_speed = 6
-            self.alien_point = int(50 * self.score_scale**2)
+            self.alien_point = int(50 * self.score_scale*2)
+        elif difficulty == 1:
+            self.ship_speed = 4
+            self.alien_speed = 7
+            self.bullet_speed = 10
+            self.alien_point = int(50 * self.score_scale*3)
 
     def increase_speeds(self):
         """Increases the value of dynamic settings"""

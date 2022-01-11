@@ -1,5 +1,6 @@
 import pygame
 from pygame.sprite import Sprite
+import random
 
 
 class Alien(Sprite):
@@ -18,14 +19,17 @@ class Alien(Sprite):
         self.rect.y = self.rect.height
         # Store the alien's x-position as a float
         self.x = float(self.rect.x)
+        self.direction = random.randrange(-1, 2, 2)
 
     def update(self):
         """Move the alien to the right"""
-        self.x += self.settings.alien_speed * self.settings.alien_fleet_direction
+        self.x += self.settings.alien_speed * self.direction
         self.rect.x = self.x
 
     def check_edge(self):
         """Checks if the alien has reached a border"""
-        if (self.rect.right >= self.settings.screen_width or
-                self.rect.left <= 0):
-            return True
+        if self.rect.right > self.settings.screen_width:
+            return 1
+        elif self.rect.left < 0:
+            return 0
+
