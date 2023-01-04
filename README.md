@@ -7,14 +7,15 @@ the alien shifts downwards. Additionally, if aliens collide with each other, the
 program. Finally, the spaceship is limited to 3 bullets at a time. 
 
 #### Game Controls:
-p - play
-r - resets the game
-1 - easy
-2 - medium
-3 - hard
-Left & Right Arrow Keys - movement
-Spacebar - shoot bullet
-q - close game and window
+ - p - play
+ - r - resets the game
+ - 1 - easy
+ - 2 - medium
+ - 3 - hard
+ - Left & Right Arrow Keys - movement
+ - Spacebar - shoot bullet
+ - q - close game and window
+You may also click when prompted to play.
 
 ### Run the project:
 - Download the files
