@@ -26,4 +26,3 @@ You may also click when prompted to play.
 Image of the game:
 
 ![Screen Shot 2022-01-10 at 9 01 57 PM](https://user-images.githubusercontent.com/89400862/148870843-d7f37004-ec80-4e5c-865c-3eca150c8925.png)
-![image](https://user-images.githubusercontent.com/89400862/210666466-8b8cabb2-b434-4901-b9cc-5b05332162af.png)
