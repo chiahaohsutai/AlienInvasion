@@ -15,6 +15,7 @@ program. Finally, the spaceship is limited to 3 bullets at a time.
  - Left & Right Arrow Keys - movement
  - Spacebar - shoot bullet
  - q - close game and window
+
 You may also click when prompted to play.
 
 ### Run the project:
