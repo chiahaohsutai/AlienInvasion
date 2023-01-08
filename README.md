@@ -1,6 +1,6 @@
 ## Alien Invasion
 
-###Project Description:
+### Project Description:
 
 The goal of the game is to eliminate all the aliens in the screen and rack up as many points as possible. The game will keep spawning new groups of aliens and likewise increase in difficulty. Every time an alien collides with a border, its direction changes and 
 the alien shifts downwards. Additionally, if aliens collide with each other, their directions are changed as well. If a new high score is reached the game will automatically save the score. Moreover, the user may pick the difficulty of the game at the start of the 
